@@ -14,4 +14,4 @@ If you want prettier reports you may want to pipe the result through faucet: `no
 If you don't want to type `node_modules/.bin/` you can install tape and faucet globally (`npm install -g tape` and `npm install -g faucet`) or add some cute alias.
 
 ## Coverage
-To run the tests and get a coverage report, run `npm run coverage`. Se the scripts in `package.json` for what it does.
+To run the tests and get a coverage report, run `npm run coverage`. See `"scripts"` in `package.json` if you want to know what it does.
