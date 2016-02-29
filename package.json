@@ -1,0 +1,22 @@
+{
+  "name": "test_frameworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape 'tape_project/**/tests/*.js'",
+    "coverage": "browserify -t coverify $(find tape_project -regex .*/tests/.*.test.js) | node | coverify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "coverify": "^1.4.1",
+    "covert": "^1.1.0",
+    "faucet": "0.0.1",
+    "tape": "^4.4.0"
+  }
+}
